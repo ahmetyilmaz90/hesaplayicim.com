@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Ana sayfa -->
+    <url>
+        <loc>https://hesaplayicim.com/</loc>
+    </url>
+
+    <!-- Matematik -->
+    <url><loc>https://hesaplayicim.com/matematik/faktoriyel-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/matematik/oran-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/matematik/sayi-tabani-donusturme</loc></url>
+    <url><loc>https://hesaplayicim.com/matematik/yuzde-hesaplama</loc></url>
+    <!---->
+
+    <!-- İstatistik -->
+    <url><loc>https://hesaplayicim.com/istatistik/aritmetik-ortalama-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/istatistik/medyan-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/istatistik/mod-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/istatistik/populasyon-standart-sapma-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/istatistik/populasyon-varyansi-hesaplama</loc></url>
+    <!---->
+
+    <!-- Sağlık -->
+    <url><loc>https://hesaplayicim.com/saglik/adet-ve-ovulasyon-gunu-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/saglik/bazal-metabolizma-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/saglik/vucut-kitle-indeksi-hesaplama</loc></url>
+    <!---->
+
+    <!-- Ticaret -->
+    <url><loc>https://hesaplayicim.com/ticaret/kar-zarar-hesaplama</loc></url>
+    <!---->
+
+    <!-- Geometri -->
+    <url><loc>https://hesaplayicim.com/geometri/alan-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/geometri/cevre-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/geometri/hipotenus-hesaplama</loc></url>
+    <!---->
+
+    <!-- Fizik -->
+    <url><loc>https://hesaplayicim.com/fizik/hacim-donusturme</loc></url>
+    <url><loc>https://hesaplayicim.com/fizik/kutle-donusturme</loc></url>
+    <url><loc>https://hesaplayicim.com/fizik/sicaklik-donusturme</loc></url>
+    <url><loc>https://hesaplayicim.com/fizik/uzunluk-donusturme</loc></url>
+    <!---->
+
+    <!-- Zaman -->
+    <url><loc>https://hesaplayicim.com/zaman/iki-tarih-arasi-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/zaman/yas-hesaplama</loc></url>
+    <!---->
+
+    <!-- Özel -->
+    <url><loc>https://hesaplayicim.com/ozel/arazi-birimi-donusturme</loc></url>
+    <url><loc>https://hesaplayicim.com/ozel/burc-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/ozel/internet-birimi-donusturme</loc></url>
+    <!---->
+
+
+    <!-- Yasal sayfalar -->
+    <url><loc>https://hesaplayicim.com/legal/cerezler</loc></url>
+    <url><loc>https://hesaplayicim.com/legal/gizlilik-politikasi</loc></url>
+    <url><loc>https://hesaplayicim.com/legal/hizmet-sartlari</loc></url>
+
+</urlset>

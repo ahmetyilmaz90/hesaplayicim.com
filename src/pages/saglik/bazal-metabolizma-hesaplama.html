@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGHWCHK493"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZGHWCHK493');
+    </script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Gereçk sayfa urlsini tarayıcıya tanıtmak için-->
+    <link rel="canonical" href="https://hesaplayicim.com/saglik/bazal-metabolizma-hesaplama">
+
+    <!-- Sayfa açıklamasını yapıyoruz -->
+    <meta name="description" content="Bazal metabolizma hızı hesaplama ile günlük kalori ihtiyacınızı hızlıca öğrenin.">
+
+    <!--Favicon dahil ediyoruz-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/src/assets/icons/favicon.ico">
+    <!---->
+
+    <!-- Fontu dahil ediyoruz.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!---->
+
+    <link rel="stylesheet" href="/src/css/styles.css">
+
+    <title>Bazal Metabolizma Hesaplama</title>
+</head>
+<body>
+<header>
+  <div class="inner-header">
+    <a href="/">
+      <img id="logo" src="/src/assets/img/Logo.svg" alt="hesaplayicimm-logo">
+    </a>
+
+    <button type="button" id="menu-toggle" class="menu-toggle">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </button>
+
+    <nav>
+      <ul class="nav-list">
+
+        <!-- Anasayfa -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <a href="/" title="Anasayfa">
+              <img src="/src/assets/icons/mynaui_home-solid.svg" alt="home-icon">
+              <span class="category-name-bottom">Anasayfa</span>
+            </a>
+          </div>
+        </li>
+
+        <!-- Matematik -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/mynaui_math.svg" alt="matematik-icon">
+            <span class="category-name-bottom">Matematik</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/matematik/faktoriyel-hesaplama">Faktöriyel Hesaplama</a></li>
+            <li><a href="/matematik/oran-hesaplama">Oran Hesaplama</a></li>
+            <li><a href="/matematik/sayi-tabani-donusturme">Sayı Tabanı Dönüştürme</a></li>
+            <li><a href="/matematik/yuzde-hesaplama">Yüzde Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- İstatistik -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/wpf_statistics.svg" alt="istatistik-icon">
+            <span class="category-name-bottom">İstatistik</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/istatistik/aritmetik-ortalama-hesaplama">Aritmetik Ortalama Hesaplama</a></li>
+            <li><a href="/istatistik/medyan-hesaplama">Medyan Hesaplama</a></li>
+            <li><a href="/istatistik/mod-hesaplama">Mod Hesaplama</a></li>
+            <li><a href="/istatistik/populasyon-standart-sapma-hesaplama">Standart Sapma Hesaplama</a></li>
+            <li><a href="/istatistik/populasyon-varyansi-hesaplama">Varyans Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- Sağlık -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/solar_health-bold.svg" alt="saglik-icon">
+            <span class="category-name-bottom">Sağlık</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/saglik/adet-ve-ovulasyon-gunu-hesaplama">Âdet ve Ovulasyon Günü Hesaplama</a></li>
+            <li><a href="/saglik/bazal-metabolizma-hesaplama">Bazal Metabolizma Hesaplama</a></li>
+            <li><a href="/saglik/vucut-kitle-indeksi-hesaplama">Vücut Kitle İndeksi Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- Ticaret -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/streamline-cyber_business-chart-4.svg" alt="ticaret-icon">
+            <span class="category-name-bottom">Ticaret</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/ticaret/kar-zarar-hesaplama">Kâr/Zarar Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- Geometri -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/tabler_geometry.svg" alt="geometri-icon">
+            <span class="category-name-bottom">Geometri</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/geometri/alan-hesaplama">Alan Hesaplama</a></li>
+            <li><a href="/geometri/cevre-hesaplama">Çevre Hesaplama</a></li>
+            <li><a href="/geometri/hipotenus-hesaplama">Hipotenüs Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- Fizik -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/hugeicons_physics.svg" alt="fizik-icon">
+            <span class="category-name-bottom">Fizik</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/fizik/hacim-donusturme">Hacim Dönüştürme</a></li>
+            <li><a href="/fizik/kutle-donusturme">Kütle Dönüştürme</a></li>
+            <li><a href="/fizik/sicaklik-donusturme">Sıcaklık Dönüştürme</a></li>
+            <li><a href="/fizik/uzunluk-donusturme">Uzunluk Dönüştürme</a></li>
+          </ul>
+        </li>
+
+        <!-- Zaman -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/hugeicons_date-time.svg" alt="zaman-icon">
+            <span class="category-name-bottom">Zaman</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/zaman/iki-tarih-arasi-hesaplama">İki Tarih Arası Hesaplama</a></li>
+            <li><a href="/zaman/yas-hesaplama">Yaş Hesaplama</a></li>
+          </ul>
+        </li>
+
+        <!-- Özel -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <img src="/src/assets/icons/material-symbols_star.svg" alt="ozel-hesaplamalar-icon">
+            <span class="category-name-bottom">Özel</span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="/ozel/arazi-birimi-donusturme">Arazi Birimi Dönüştürme</a></li>
+            <li><a href="/ozel/burc-hesaplama">Burç Hesaplama</a></li>
+            <li><a href="/ozel/internet-birimi-donusturme">İnternet Birimi Dönüştürme</a></li>
+          </ul>
+        </li>
+
+        <!-- İletişim -->
+        <li class="nav-group">
+          <div class="nav-trigger">
+            <a href="mailto:hesaplayicim@gmail.com" title="İletişim">
+              <img src="/src/assets/icons/ci_mail.svg" alt="iletisim-icon">
+              <span class="category-name-bottom">İletişim</span>
+            </a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main>
+
+        <div id="hero-section">
+            <h1>Bazal Metabolizma Hesaplama</h1>
+            <h2>Sağlık</h2>
+        </div>
+ 
+        <div class="calculator-container">
+            <form id="bazal-metabolizma"> 
+
+                <div class="form-area">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="left">
+                                <label for="cinsiyet">Cinsiyet</label>
+                                <select required id="cinsiyet">
+                                    <option value="">Cinsiyet Seçiniz</option>
+                                    <option value="erkek">Erkek</option>
+                                    <option value="kadin">Kadın</option>
+                                </select>                                
+                            </div>
+                            <div class="right">
+                                <label for="yas">Yaş</label>
+                                <input id="yas" type="number" placeholder="Yaşınızı giriniz." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="left">
+                                <label for="kilo">Kilo</label>
+                                <input id="kilo" type="number" placeholder="Kilonuzu giriniz.(kg)" required>
+                            </div>
+                            <div class="right">
+                                <label for="boy">Boy</label>
+                                <input id="boy" type="number" placeholder="Boyunuzu girinz.(cm)" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row" id="result-btns">
+                            <button id="result-btn" type="submit" class="btn-accent calculate-btn">Hesapla</button>
+                            <button id="reset-btn" type="button" class="btn-outline calculate-btn">Sıfırla</button>                            
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="result-area">
+                        <div class="row" id="result-group">
+                            <span>Sonuç</span>
+                            <button title="Kopyala" type="button" id="copy-btn"><img src="/src/assets/icons/solar_copy-bold.svg" alt="kopyalama-butonu"></button>
+                        </div>
+                        <output id="result"></output>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <!--Sitenin Logosu-->
+            <img src="/src/assets/icons/logo-icon.svg" id="logo-icon" alt="logo-icon">
+
+            <!--Site legal dosyaları-->
+            <ul id="site-sartlari">
+                <li><a href="/hizmet-sartlari">Hizmet Şartları</a></li>
+                <li><a href="/gizlilik-politikasi">Gizlilik Politikası</a></li>
+                <li><a href="/cerezler">Çerezler</a></li>
+            </ul>
+
+            <!--Sitenin mail adresi-->
+            <a id="mail-addres" href="mailto:hesaplayicim@gmail.com" target="_blank">hesaplayicim@gmail.com</a>
+
+            <!--Sitenin copyright kısmı ve kodların durduğu repo-->
+            <div id="footernote">
+                <p id="copyright"> <span id="date-site"></span> hesaplayicim.com</p>
+                <div class="social-media-icons">
+                    <a href="https://github.com/ahmetyilmaz90/hesaplayicim.com" target="_blank"><img src="/src/assets/icons/mdi_github.svg" alt="github-icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/src/js/index.js"></script>
+    <script src="/src//js/health/bazal-metabolizma.js"></script>
+</body>
+</html>
