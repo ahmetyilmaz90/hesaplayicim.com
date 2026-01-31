@@ -33,6 +33,10 @@ main {
     flex: 1;
 }
 
+main.notactive {
+    display: none;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -248,13 +252,15 @@ main {
     gap: 30px;
 }
 
-#hero-section h1 {
+h1 {
     font-size: 56px;
     color: #fff; 
     font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-#hero-section h2 {
+h2 {
     font-size: 48px;
     color: var(--HC-secondary-color-500);
     font-weight: bolder;
@@ -317,12 +323,13 @@ main {
 }
 
 .cards {
-    margin-top: 50px;
+    margin: 20px 0px;
     width: 100%;    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 1024px) {
@@ -353,7 +360,7 @@ main {
     height: 130px;
 }
 
-h2, h3 {
+h3 {
     color: #fff;
     font-size: 48px;
     font-weight: bolder;
@@ -482,10 +489,6 @@ footer #mail-addres:hover {
     gap: 15px;
 }
 
-.social-media-icons img:hover {
-    content: url("/src/assets/icons/github-hover-icon.svg");
-}
-
 @media (max-width: 572px){
     .social-media-icons img {
         width: 50px;
@@ -510,6 +513,7 @@ input, select, textarea {
     border-radius: 10px;
     outline: none;
     padding: 0px 5px;
+    width: 100%;
     transition: outline 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
@@ -766,4 +770,20 @@ input:focus, select:focus, textarea:focus {
   #terms-container li {
     font-size: 16px;
   }
+}
+
+/*Dünya Saatleri için CSS stilleri*/
+
+.dunya-saatleri-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+    margin: 20px 50px;
+}
+
+.dunya-saatleri-container .card {
+    width: 350px;
+    height: 350px;
 }

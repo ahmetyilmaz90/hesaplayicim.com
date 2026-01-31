@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGHWCHK493"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BZDRG4TWWR"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-    gtag('config', 'G-ZGHWCHK493');
-    </script>
+			gtag('config', 'G-BZDRG4TWWR');
+		</script>
 
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<!--Gereçk sayfa urlsini tarayıcıya tanıtmak için-->
+		<link rel="canonical" href="https://hesaplayicim.com/geometri/alan-hesaplama" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Sayfa açıklamasını yapıyoruz -->
+		<meta
+			name="description"
+			content="Alan hesaplama aracıyla farklı şekillerin alanını kolayca ve doğru şekilde bulun."
+		/>
 
-    <!--Gereçk sayfa urlsini tarayıcıya tanıtmak için-->
-    <link rel="canonical" href="https://hesaplayicim.com/geometri/alan-hesaplama">
+		<!--Favicon dahil ediyoruz-->
+		<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/icons/favicon-16x16.png" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<!---->
 
-    <!-- Sayfa açıklamasını yapıyoruz -->
-    <meta name="description" content="Alan hesaplama aracıyla farklı şekillerin alanını kolayca ve doğru şekilde bulun.">
+		<!-- Fontu dahil ediyoruz.-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+		<!---->
 
-    <!--Favicon dahil ediyoruz-->
-    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/icons/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" href="/src/assets/icons/favicon.ico">
-    <!---->
+		<link rel="stylesheet" href="/src/css/styles.css" />
 
-    <!-- Fontu dahil ediyoruz.-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <!---->
-
-    <link rel="stylesheet" href="/src/css/styles.css">
-
-    <title>Alan Hesaplama</title>
-
-</head>
-<body>
+		<title>Alan Hesaplama</title>
+	</head>
+	<body>
 <header>
   <div class="inner-header">
     <a href="/">
@@ -72,6 +74,8 @@
             <span class="category-name-bottom">Matematik</span>
           </div>
           <ul class="dropdown-menu">
+            <li><a href="/matematik/asal-sayi-kontrolu">Asal Sayı Kontrolü</a></li>
+            <li><a href="/matematik/derece-donusturme">Derece Dönüştürme</a></li>
             <li><a href="/matematik/faktoriyel-hesaplama">Faktöriyel Hesaplama</a></li>
             <li><a href="/matematik/oran-hesaplama">Oran Hesaplama</a></li>
             <li><a href="/matematik/sayi-tabani-donusturme">Sayı Tabanı Dönüştürme</a></li>
@@ -115,6 +119,7 @@
           </div>
           <ul class="dropdown-menu">
             <li><a href="/ticaret/kar-zarar-hesaplama">Kâr/Zarar Hesaplama</a></li>
+            <li><a href="/ticaret/indirim-hesaplama">İndirim Hesaplama</a></li>
           </ul>
         </li>
 
@@ -127,6 +132,7 @@
           <ul class="dropdown-menu">
             <li><a href="/geometri/alan-hesaplama">Alan Hesaplama</a></li>
             <li><a href="/geometri/cevre-hesaplama">Çevre Hesaplama</a></li>
+            <li><a href="/geometri/hacim-hesaplama">Hacim Hesaplama</a></li>
             <li><a href="/geometri/hipotenus-hesaplama">Hipotenüs Hesaplama</a></li>
           </ul>
         </li>
@@ -152,6 +158,7 @@
             <span class="category-name-bottom">Zaman</span>
           </div>
           <ul class="dropdown-menu">
+            <li><a href="/zaman/dunya-saatleri">Dünya Saatleri</a></li>
             <li><a href="/zaman/iki-tarih-arasi-hesaplama">İki Tarih Arası Hesaplama</a></li>
             <li><a href="/zaman/yas-hesaplama">Yaş Hesaplama</a></li>
           </ul>
@@ -185,85 +192,87 @@
   </div>
 </header>
 
-    <main>
-        <div id="hero-section">
-            <h1>Alan Hesaplama</h1>
-            <h2>Geometri</h2>
-        </div>
+		<main>
+			<div id="hero-section">
+				<h1>Alan Hesaplama</h1>
+				<h2>Geometri</h2>
+			</div>
 
-        <div class="calculator-container">
-            <form id="alan-hesaplama">
+			<div class="calculator-container">
+				<form id="alan-hesaplama">
+					<div class="form-area">
+						<div class="form-group">
+							<div class="column">
+								<label for="methot">Şekil Seçiniz</label>
+								<select required id="methot">
+									<option value="">Şekil Seçiniz...</option>
+									<option value="ucgen">Dik Üçgen</option>
+									<option value="kare">Kare</option>
+									<option value="daire">Daire</option>
+									<option value="dikdortgen">Dikdörtgen</option>
+								</select>
+							</div>
+							<div class="row">
+								<div class="left">
+									<label for="sayi1">Şekil Seçin</label>
+									<input placeholder="Şekil seçin" id="sayi1" type="number" step="0.01" required />
+								</div>
+								<div class="right">
+									<label for="sayi2">Şekil Seçin</label>
+									<input placeholder="Şekil Seçin" id="sayi2" type="number" step="0.01" required />
+								</div>
+							</div>
+						</div>
 
-                <div class="form-area">
-                    <div class="form-group">
-                        <div class="column">
-                            <label for="methot">Şekil Seçiniz</label>
-                            <select required id="methot">
-                                <option value="">Şekil Seçiniz...</option>
-                                <option value="ucgen">Dik Üçgen</option>
-                                <option value="kare">Kare</option>
-                                <option value="daire">Daire</option>
-                                <option value="dikdortgen">Dikdörtgen</option>
-                            </select>
-                        </div>
-                        <div class="row">
-                            <div class="left">
-                                <label for="sayi1">Şekil Seçin</label>
-                                <input placeholder="Şekil seçin" id="sayi1" type="number" required>
-                            </div>
-                            <div class="right">
-                                <label for="sayi2">Şekil Seçin</label>
-                                <input placeholder="Şekil Seçin" id="sayi2" type="number" required>
-                            </div>
-                        </div>
-                    </div>
+						<div class="form-group">
+							<div class="row" id="result-btns">
+								<button type="submit" id="result-btn" class="calculate-btn btn-accent">Hesapla</button>
+								<button type="button" id="reset-btn" class="calculate-btn btn-outline">Sıfırla</button>
+							</div>
+						</div>
 
-                    <div class="form-group">
-                        <div class="row" id="result-btns">
-                            <button type="submit" id="result-btn" class="calculate-btn btn-accent">Hesapla</button>
-                            <button type="button" id="reset-btn" class="calculate-btn btn-outline">Sıfırla</button>
-                        </div>
-                    </div>
+						<div class="form-group" id="result-area">
+							<div class="row" id="result-group">
+								<span>Sonuç</span>
+								<button title="Kopyala" type="button" id="copy-btn">
+									<img src="/src/assets/icons/solar_copy-bold.svg" alt="kopyalama-butonu" />
+								</button>
+							</div>
+							<output id="result"></output>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
 
-                    <div class="form-group" id="result-area">
-                        <div class="row" id="result-group">
-                            <span>Sonuç</span>
-                            <button title="Kopyala" type="button" id="copy-btn"><img src="/src/assets/icons/solar_copy-bold.svg" alt="kopyalama-butonu"></button>
-                        </div>
-                        <output id="result"></output>
-                    </div>
-                </div>
+		<footer>
+			<div class="footer-inner">
+				<!--Sitenin Logosu-->
+				<img src="/src/assets/icons/logo-icon.svg" id="logo-icon" alt="logo-icon" />
 
-            </form>
-        </div>
-    </main>
+				<!--Site legal dosyaları-->
+				<ul id="site-sartlari">
+					<li><a href="/hizmet-sartlari">Hizmet Şartları</a></li>
+					<li><a href="/gizlilik-politikasi">Gizlilik Politikası</a></li>
+					<li><a href="/cerezler">Çerezler</a></li>
+				</ul>
 
-    <footer>
-        <div class="footer-inner">
-            <!--Sitenin Logosu-->
-            <img src="/src/assets/icons/logo-icon.svg" id="logo-icon" alt="logo-icon">
+				<!--Sitenin mail adresi-->
+				<a id="mail-addres" href="mailto:hesaplayicim@gmail.com" target="_blank">hesaplayicim@gmail.com</a>
 
-            <!--Site legal dosyaları-->
-            <ul id="site-sartlari">
-                <li><a href="/hizmet-sartlari">Hizmet Şartları</a></li>
-                <li><a href="/gizlilik-politikasi">Gizlilik Politikası</a></li>
-                <li><a href="/cerezler">Çerezler</a></li>
-            </ul>
+				<!--Sitenin copyright kısmı ve kodların durduğu repo-->
+				<div id="footernote">
+					<p id="copyright"><span id="date-site"></span> hesaplayicim.com</p>
+					<div class="social-media-icons">
+						<a href="https://github.com/ahmetyilmaz90/hesaplayicim.com" target="_blank"
+							><img src="/src/assets/icons/mdi_github.svg" alt="github-icon"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-            <!--Sitenin mail adresi-->
-            <a id="mail-addres" href="mailto:hesaplayicim@gmail.com" target="_blank">hesaplayicim@gmail.com</a>
-
-            <!--Sitenin copyright kısmı ve kodların durduğu repo-->
-            <div id="footernote">
-                <p id="copyright"> <span id="date-site"></span> hesaplayicim.com</p>
-                <div class="social-media-icons">
-                    <a href="https://github.com/ahmetyilmaz90/hesaplayicim.com" target="_blank"><img src="/src/assets/icons/mdi_github.svg" alt="github-icon"></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="/src/js/index.js"></script>
-    <script src="/src/js/geometry/alan-hesaplama.js"></script>
-</body>
+		<script src="/src/js/index.js"></script>
+		<script src="/src/js/geometry/alan-hesaplama.js"></script>
+	</body>
 </html>

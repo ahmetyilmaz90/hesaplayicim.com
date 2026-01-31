@@ -12,17 +12,15 @@
 </script>
 
 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Gereçk sayfa urlsini tarayıcıya tanıtmak için-->
-    <link rel="canonical" href="https://hesaplayicim.com/src/legal/gizlilik-politikasi">
-    <!---->
+    <link rel="canonical" href="https://hesaplayicim.com/matematik/derece-donusturme">
 
-    <!--SEO değeri olmayan sayfalar için-->
-    <meta name="robots" content="noindex, follow">
-    <!---->
-
+    <!-- Sayfa açıklamasını yapıyoruz -->
+    <meta name="description" content="Derece–radyan–gradyan dönüştürme aracı ile açı ölçü birimlerini anında çevir, matematik ve mühendislik hesaplarını kolaylaştır.">
 
     <!--Favicon dahil ediyoruz-->
     <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/icons/favicon-32x32.png">
@@ -37,7 +35,8 @@
     <!---->
 
     <link rel="stylesheet" href="/src/css/styles.css">
-    <title>Gizlilik Politikası</title>
+
+    <title>Derece Dönüştürme - Hesaplayıcım</title>
 
 </head>
 <body>
@@ -192,78 +191,59 @@
 </header>
 
     <main>
-
-        <div id="terms-container">
-
-            <h1>Gizlilik Politikası</h1>
-
-            <p>
-                Bu gizlilik politikası, bu web sitesini ziyaret eden kullanıcıların bilgilerinin
-                nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.
-            </p>
-
-            <h2>1. Toplanan Bilgiler</h2>
-            <p>
-                Bu siteyi kullanırken sizden doğrudan kişisel bilgi (isim, e-posta vb.) talep edilmez.
-                Ancak tarayıcı türü, cihaz bilgisi, ziyaret zamanı gibi anonim teknik veriler otomatik
-                olarak TOPLANABİLİR.
-            </p>
-
-            <h2>2. Bilgilerin Kullanımı</h2>
-            <p>Toplanabilen veriler aşağıdaki amaçlarla kullanılmaktadır:</p>
-            <ul>
-                <li>Hizmet kalitesini artırmak,</li>
-                <li>Site performansını analiz etmek,</li>
-                <li>Hataları tespit etmek.</li>
-            </ul>
-
-            <h2>3. Çerezler (Cookies)</h2>
-            <p>
-                Bu site kullanıcı deneyimini geliştirmek için çerezler kullanabilir.
-                Tarayıcı ayarlarınızdan çerezleri reddedebilirsiniz; ancak bazı özellikler
-                düzgün çalışmayabilir.
-            </p>
-
-            <h2>4. Üçüncü Taraf Hizmetler</h2>
-            <p>
-                Analiz veya reklam hizmetleri (ör. Google Analytics) kullanılabilir.
-                Bu hizmetlerin kendi gizlilik politikaları geçerlidir.
-            </p>
-
-            <h2>5. Bilgilerin Paylaşımı</h2>
-            <p>
-                Toplanan bilgiler yasal zorunluluklar haricinde üçüncü kişilerle paylaşılmaz,
-                satılmaz veya kiralanmaz.
-            </p>
-
-            <h2>6. Veri Güvenliği</h2>
-            <p>
-                Site sizden herhangi bir veri talep etmez. Fakat ağınızdan gelebilecek tehlikelere dair güvenlik garanti edilemez.
-            </p>
-
-            <h2>7. Harici Bağlantılar</h2>
-            <p>
-                Sitemizden başka sitelere bağlantılar verilebilir.
-                Site, bu sitelerin gizlilik uygulamalarından sorumlu değildir.
-            </p>
-
-            <h2>8. Politika Değişiklikleri</h2>
-            <p>
-                Bu politika gerektiğinde güncellenebilir.
-                Güncel sürüm sitede yayınlandığı andan itibaren geçerli olur.
-            </p>
-
-            <h2>9. İletişim</h2>
-            <p>
-                Sorularınız için:<br>
-                <strong>hesaplayicim@gmail.com</strong>
-            </p>
-
-            <div id="terms-footer">
-                <p>Son güncelleme: 26.12.2025</p>
-            </div>
+        <div id="hero-section">
+            <h1>Derece Dönüştürme</h1>
+            <h2>Matematik</h2>
         </div>
 
+        <div class="calculator-container">
+            <form id="derece-donusturme">
+
+                <div class="form-area">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="left">
+                                <label for="from">Giriş Birimi</label>
+                                <select id="from">
+                                    <option value="deg">Derece</option>
+                                    <option value="rad">Radyan</option>
+                                    <option value="grad">Gradyan</option>
+                                </select>
+                            </div>
+
+                            <div class="right">
+                                <label for="to">Çıkış Birimi</label>
+                                <select id="to">
+                                    <option value="deg">Derece</option>
+                                    <option value="rad">Radyan</option>
+                                    <option value="grad">Gradyan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <label for="sayi">Açı Ölçüsü</label>
+                            <input type="number" id="sayi" placeholder="Açı ölçüsünü giriniz." step="0.01" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row" id="result-btns">
+                            <button type="submit" id="result-btn" class="calculate-btn btn-accent">Hesapla</button>
+                            <button type="button" id="reset-btn" class="calculate-btn btn-outline">Sıfırla</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="result-area">
+                        <div class="row" id="result-group">
+                            <span>Sonuç</span>
+                            <button title="Kopyala" type="button" id="copy-btn"><img src="/src/assets/icons/solar_copy-bold.svg" alt="kopyalama-butonu"></button>
+                        </div>
+                        <output id="result"></output>
+                    </div>
+                </div>
+
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -290,8 +270,8 @@
             </div>
         </div>
     </footer>
-
-<script src="/src/js/index.js"></script>
-
+    
+    <script src="/src/js/index.js"></script>
+    <script src="/src/js/math/derece-donusumu.js"></script>
 </body>
 </html>

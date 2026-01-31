@@ -7,6 +7,8 @@
     </url>
 
     <!-- Matematik -->
+    <url><loc>https://hesaplayicim.com/matematik/asal-sayi-kontrolu</loc></url>
+    <url><loc>https://hesaplayicim.com/matematik/derece-donusturme</loc></url>
     <url><loc>https://hesaplayicim.com/matematik/faktoriyel-hesaplama</loc></url>
     <url><loc>https://hesaplayicim.com/matematik/oran-hesaplama</loc></url>
     <url><loc>https://hesaplayicim.com/matematik/sayi-tabani-donusturme</loc></url>
@@ -29,11 +31,13 @@
 
     <!-- Ticaret -->
     <url><loc>https://hesaplayicim.com/ticaret/kar-zarar-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/ticaret/indirim-hesaplama</loc></url>
     <!---->
 
     <!-- Geometri -->
     <url><loc>https://hesaplayicim.com/geometri/alan-hesaplama</loc></url>
     <url><loc>https://hesaplayicim.com/geometri/cevre-hesaplama</loc></url>
+    <url><loc>https://hesaplayicim.com/geometri/hacim-hesaplama</loc></url>
     <url><loc>https://hesaplayicim.com/geometri/hipotenus-hesaplama</loc></url>
     <!---->
 
@@ -45,6 +49,7 @@
     <!---->
 
     <!-- Zaman -->
+    <url><loc>https://hesaplayicim.com/zaman/dunya-saatleri</loc></url>
     <url><loc>https://hesaplayicim.com/zaman/iki-tarih-arasi-hesaplama</loc></url>
     <url><loc>https://hesaplayicim.com/zaman/yas-hesaplama</loc></url>
     <!---->

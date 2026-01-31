@@ -7,7 +7,6 @@ if (document.getElementsByClassName("calculator-container").length > 0) {
     const dataTextArea = document.querySelector("textarea") || null;
     const resultBtn = document.getElementById("result-btn");
 
-
     /*Temizleme butonu işlevi*/
     resetBtn.addEventListener("click", function() {
         if (inputs.length > 0) {
@@ -69,13 +68,17 @@ if (document.getElementsByClassName("calculator-container").length > 0) {
     });
 }
 
+const main = document.querySelector("main");
+
+
 /* Toggle Buton işlevi */
 const toggle = document.getElementById("menu-toggle");
 const navList = document.querySelector(".nav-list");
 
 toggle.addEventListener("click", () => {
-  toggle.classList.toggle("active");
-  navList.classList.toggle("active");
+    toggle.classList.toggle("active");
+    navList.classList.toggle("active");
+    main.classList.toggle("notactive");
 });
 
 
