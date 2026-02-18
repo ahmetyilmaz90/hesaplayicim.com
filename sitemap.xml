@@ -1,69 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- Ana sayfa -->
-    <url>
-        <loc>https://hesaplayicim.com/</loc>
-    </url>
-
-    <!-- Matematik -->
-    <url><loc>https://hesaplayicim.com/matematik/asal-sayi-kontrolu</loc></url>
-    <url><loc>https://hesaplayicim.com/matematik/derece-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/matematik/faktoriyel-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/matematik/oran-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/matematik/sayi-tabani-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/matematik/yuzde-hesaplama</loc></url>
-    <!---->
-
-    <!-- İstatistik -->
-    <url><loc>https://hesaplayicim.com/istatistik/aritmetik-ortalama-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/istatistik/medyan-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/istatistik/mod-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/istatistik/populasyon-standart-sapma-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/istatistik/populasyon-varyansi-hesaplama</loc></url>
-    <!---->
-
-    <!-- Sağlık -->
-    <url><loc>https://hesaplayicim.com/saglik/adet-ve-ovulasyon-gunu-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/saglik/bazal-metabolizma-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/saglik/vucut-kitle-indeksi-hesaplama</loc></url>
-    <!---->
-
-    <!-- Ticaret -->
-    <url><loc>https://hesaplayicim.com/ticaret/kar-zarar-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/ticaret/indirim-hesaplama</loc></url>
-    <!---->
-
-    <!-- Geometri -->
-    <url><loc>https://hesaplayicim.com/geometri/alan-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/geometri/cevre-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/geometri/hacim-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/geometri/hipotenus-hesaplama</loc></url>
-    <!---->
-
-    <!-- Fizik -->
-    <url><loc>https://hesaplayicim.com/fizik/hacim-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/fizik/kutle-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/fizik/sicaklik-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/fizik/uzunluk-donusturme</loc></url>
-    <!---->
-
-    <!-- Zaman -->
-    <url><loc>https://hesaplayicim.com/zaman/dunya-saatleri</loc></url>
-    <url><loc>https://hesaplayicim.com/zaman/iki-tarih-arasi-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/zaman/yas-hesaplama</loc></url>
-    <!---->
-
-    <!-- Özel -->
-    <url><loc>https://hesaplayicim.com/ozel/arazi-birimi-donusturme</loc></url>
-    <url><loc>https://hesaplayicim.com/ozel/burc-hesaplama</loc></url>
-    <url><loc>https://hesaplayicim.com/ozel/internet-birimi-donusturme</loc></url>
-    <!---->
-
-
-    <!-- Yasal sayfalar -->
-    <url><loc>https://hesaplayicim.com/legal/cerezler</loc></url>
-    <url><loc>https://hesaplayicim.com/legal/gizlilik-politikasi</loc></url>
-    <url><loc>https://hesaplayicim.com/legal/hizmet-sartlari</loc></url>
+<url>
+  <loc>https://hesaplayicim.com/</loc>
+  <lastmod>2026-01-31T18:32:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/asal-sayi-kontrolu</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/derece-donusturme</loc>
+  <lastmod>2026-01-31T18:22:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/faktoriyel-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/oran-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/sayi-tabani-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/matematik/yuzde-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/istatistik/aritmetik-ortalama-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/istatistik/medyan-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/istatistik/mod-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/istatistik/populasyon-standart-sapma-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/istatistik/populasyon-varyansi-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/saglik/adet-ve-ovulasyon-gunu-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/saglik/bazal-metabolizma-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/saglik/vucut-kitle-indeksi-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/ticaret/kar-zarar-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/ticaret/indirim-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/geometri/alan-hesaplama</loc>
+  <lastmod>2026-01-31T18:12:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/geometri/cevre-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/geometri/hacim-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/geometri/hipotenus-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/fizik/hacim-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/fizik/kutle-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/fizik/sicaklik-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/fizik/uzunluk-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/zaman/dunya-saatleri</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/zaman/iki-tarih-arasi-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/zaman/yas-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/ozel/arazi-birimi-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/ozel/burc-hesaplama</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hesaplayicim.com/ozel/internet-birimi-donusturme</loc>
+  <lastmod>2026-01-31T18:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>

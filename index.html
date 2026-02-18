@@ -41,10 +41,10 @@
 <header>
   <div class="inner-header">
     <a href="/">
-      <img id="logo" src="/src/assets/img/Logo.svg" alt="hesaplayicimm-logo">
+      <img class="logo" src="/src/assets/img/Logo.svg" alt="hesaplayicimm-logo">
     </a>
 
-    <button type="button" id="menu-toggle" class="menu-toggle">
+    <button type="button" id="menu-toggle" class="menu-toggle" aria-label="menüyü aç/kapa">
       <div class="line"></div>
       <div class="line"></div>
       <div class="line"></div>
@@ -189,34 +189,36 @@
 </header>
 
     <main>
-        <div id="hero-section">
-            <h1>HESAPLAYICIM İLE RAHATLIĞI KEŞFET</h1>
-            <h2>Hızlı Hesaplama Sitesi</h2>
-        </div>
 
-        <div class="cards">
-            <div class="card" id="hizli-cozumler">
-                <img src="/src/assets/icons/material-symbols_speed-outline.svg" alt="speed-icon">
-                <h3>Hızlı Çözümler</h3>
-                <p>İhtiyacın olan çözümlere saniyeler içinde ulaşmanı sağlayan hızlı ve pratik bir sistem.</p>
-            </div>
-            <div class="card">
-                <img src="/src/assets/icons/codicon_workspace-trusted.svg" alt="trusted-icon">
-                <h3>Doğruluk</h3>
-                <p>Bilgileri en güvenilir kaynaklardan derleyip hatasız şekilde sunan, doğruluğu merkeze alan bir sistem.</p>
-            </div>
-            <div class="card">
-                <img src="/src/assets/icons/mdi_star-cog-outline.svg" alt="star-icon">
-                <h3>Gelişmişlik</h3>
-                <p>Modern teknolojilerle sürekli yenilenen, her kullanımda daha akıllı ve daha verimli çalışan gelişmiş bir yapı.</p>
-            </div>
-        </div>
+      <div class="flex flex-col gap-30">
+          <h1 class="center-text" class="center-text">HESAPLAYICIM İLE RAHATLIĞI KEŞFET</h1>
+          <h2 class="center-text" class="center-text">Hızlı Hesaplama Sitesi</h2>
+      </div>
+
+      <div class="cards">
+          <div class="card">
+              <img src="/src/assets/icons/material-symbols_speed-outline.svg" alt="speed-icon">
+              <h3>Hızlı Çözümler</h3>
+              <p>İhtiyacın olan çözümlere saniyeler içinde ulaşmanı sağlayan hızlı ve pratik bir sistem.</p>
+          </div>
+          <div class="card">
+              <img src="/src/assets/icons/codicon_workspace-trusted.svg" alt="trusted-icon">
+              <h3>Doğruluk</h3>
+              <p>Bilgileri en güvenilir kaynaklardan derleyip hatasız şekilde sunan, doğruluğu merkeze alan bir sistem.</p>
+          </div>
+          <div class="card">
+              <img src="/src/assets/icons/mdi_star-cog-outline.svg" alt="star-icon">
+              <h3>Gelişmişlik</h3>
+              <p>Modern teknolojilerle sürekli yenilenen, her kullanımda daha akıllı ve daha verimli çalışan gelişmiş bir yapı.</p>
+          </div>
+      </div>
+
     </main>
 
     <footer>
         <div class="footer-inner">
             <!--Sitenin Logosu-->
-            <img src="/src/assets/icons/logo-icon.svg" id="logo-icon" alt="logo-icon">
+            <img src="/src/assets/icons/logo-icon.svg" class="logo" alt="logo-icon">
 
             <!--Site legal dosyaları-->
             <ul id="site-sartlari">
@@ -230,15 +232,15 @@
 
             <!--Sitenin copyright kısmı ve kodların durduğu repo-->
             <div id="footernote">
-                <p id="copyright"> <span id="date-site"></span> hesaplayicim.com</p>
+                <p class="copyright"> <span id="date-site"></span> hesaplayicim.com</p>
                 <div class="social-media-icons">
-                    <a title="Github Reposu" href="https://github.com/ahmetyilmaz90/hesaplayicim.com" target="_blank"><img src="/src/assets/icons/mdi_github.svg" alt="github-icon"></a>
+                    <a  title="Github Reposu" href="https://github.com/ahmetyilmaz90/hesaplayicim.com"  target="_blank" rel="noopener noreferrer"><img src="/src/assets/icons/mdi_github.svg" alt="github-icon"></a>
                 </div>
             </div>
         </div>
     </footer>
 
-<script src="/src/js/index.js"></script>
+<script type="module" src="/src/js/index.js"></script>
 
 </body>
 </html>
