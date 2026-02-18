@@ -1,0 +1,23 @@
+
+text/x-generic htaccess ( UTF-8 Unicode text, with CRLF, LF line terminators )
+RewriteEngine On
+
+# 1️⃣ HTTP -> HTTPS + www -> non-www
+
+# 2️⃣ .html görünen URL'leri uzantısız hale getir
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?]
+RewriteRule ^ %1 [R=301,L]
+
+# legal'de varsa
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/src/legal/$1.html -f
+RewriteRule ^(.+)$ src/legal/$1.html [L]
+
+# yoksa pages'a düş
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ src/pages/$1.html [L]
+RewriteCond %{HTTP_HOST} ^blabla\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.blabla\.com$
+RewriteRule ^/?$ "https\:\/\/hesaplayicim\.com\/" [R=301,L]
